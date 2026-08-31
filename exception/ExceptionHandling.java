@@ -2,6 +2,9 @@ package exception;
 import java.util.*;
 public class ExceptionHandling {
 
+	//throw
+//	Used inside a method or block to actually throw an exception object.
+	
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Scanner sc=new Scanner(System.in);
