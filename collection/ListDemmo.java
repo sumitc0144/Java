@@ -1,6 +1,7 @@
 package collection;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 
@@ -16,10 +17,16 @@ public class ListDemmo {
 		}
 			List<Integer> age=new ArrayList<>();
 			age.add(22);
-			age.add(30);
+			age.add(13);
+			for(Integer Age:age) {
+				System.out.println(Age);
+			}
+			
+			Collections.sort(age);
+			
 			for(Integer Age:age) {
 				System.out.println(Age);
 			}
 		}
-	
+		
 }
