@@ -27,8 +27,8 @@ public class Queueinterface {
         queue.add("First");
         queue.offer("Apple");//adds element but offer is queue specific insertionmetthod
         System.out.println("Queue : " + queue);
-        // System.out.println("Queue Remove: " + queue.remove());
-        System.out.println("Queue poll(RemovesFirst Element like .remove()): " + queue.poll());
+        // System.out.println("Queue Remove(only removes first element): " + queue.remove());
+        System.out.println("Queue poll(RemovesFirst Element like .remove() but returns the element): " + queue.poll());
         System.out.println("To peek first elemnet in Queue use element() or peek both work:  "+queue.element());
         //size(),isEmpty(),contains() work same
         
