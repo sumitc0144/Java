@@ -25,15 +25,56 @@ public class Listinterface {
         // REMOVE (by index or value)
         arrayList.remove(1); // removes "Banana"
         System.out.println("After remove: " + arrayList);
+        
+        //Size
+        System.out.println("Size: "+arrayList.size());
 
+//        //Capcity
+//        System.out.println("Size: "+arrayList.());
+
+        //isEmpty
+        System.out.println("isEmpty: "+arrayList.isEmpty());
+        
+        //lastIndexOf
+        System.out.println("lastIndexOf: "+arrayList.lastIndexOf("Apple"));
+        
+        
         // SEARCH
         System.out.println("Index of 'Apple': " + arrayList.indexOf("Apple"));
         System.out.println("Contains 'Mango'? " + arrayList.contains("Mango"));
 
-        // ITERATE
+        
+        //Using for Loop
+        System.out.println("Using for loop");
+        
+        for (int i = 0; i < arrayList.size(); i++)
+        {
+        	System.out.println(arrayList.get(i)); 
+        	} 
+        
+        
+        
+        // ITERATE Enhanced Loop
+        
+
+        System.out.println("Using Enhanvced for loop");
         for (String fruit : arrayList) {
             System.out.println("Fruit: " + fruit);
         }
+        
+        
+        
+        //Using forEach
+
+        System.out.println("Using forEach loop");
+        
+        arrayList.forEach(name -> System.out.println(name)); 
+        
+        
+        //clear
+        
+//        System.out.println(arrayList.clear())
+        
         System.out.println();
         System.out.println();
 
