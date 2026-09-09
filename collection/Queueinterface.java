@@ -7,7 +7,11 @@ import java.util.Queue;
 import java.util.Deque; 
 import java.util.ArrayDeque; 
 
-
+//Collection 
+//+--- Queue 
+//+--- LinkedList 
+//+--- PriorityQueue
+//+--- ArrayDeque 
 public class Queueinterface {
     public static void main(String[] args) {
         // PriorityQueue
@@ -21,9 +25,13 @@ public class Queueinterface {
         // LinkedList as Queue
         Queue<String> queue = new LinkedList<>();
         queue.add("First");
-        queue.add("Second");
-        System.out.println("Queue poll: " + queue);
-
+        queue.offer("Apple");//adds element but offer is queue specific insertionmetthod
+        System.out.println("Queue : " + queue);
+        // System.out.println("Queue Remove: " + queue.remove());
+        System.out.println("Queue poll(RemovesFirst Element like .remove()): " + queue.poll());
+        System.out.println("To peek first elemnet in Queue use element() or peek both work:  "+queue.element());
+        //size(),isEmpty(),contains() work same
+        
         // ArrayDeque
         Deque<String> deque = new ArrayDeque<>();
         deque.add("Front");
