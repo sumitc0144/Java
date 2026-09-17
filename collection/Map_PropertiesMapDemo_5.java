@@ -2,7 +2,7 @@ package collection;
 
 import java.util.*;
 
-public class PropertiesMapDemo_5 {
+public class Map_PropertiesMapDemo_5 {
     public static void main(String[] args) {
         Properties props = new Properties();
 

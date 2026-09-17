@@ -2,7 +2,7 @@ package collection;
 
 import java.util.*;
 
-public class ArrayDequeDemo {
+public class Queue_ArrayDequeDemo {
     public static void main(String[] args) {
         Deque<String> deque = new ArrayDeque<>();
 

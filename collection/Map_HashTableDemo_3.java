@@ -2,7 +2,7 @@ package collection;
 
 import java.util.*;
 
-public class HashTableDemo_3 {
+public class Map_HashTableDemo_3 {
     public static void main(String[] args) {
         Hashtable<String, String> hashtable = new Hashtable<>();
 

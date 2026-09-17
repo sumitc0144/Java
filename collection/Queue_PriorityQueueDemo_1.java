@@ -2,7 +2,7 @@ package collection;
 
 import java.util.*;
 
-public class PriorityQueueDemo_1 {
+public class Queue_PriorityQueueDemo_1 {
     public static void main(String[] args) {
         Queue<Integer> priorityQueue = new PriorityQueue<>();
 

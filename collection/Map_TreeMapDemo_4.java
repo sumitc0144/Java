@@ -2,7 +2,7 @@ package collection;
 
 import java.util.*;
 
-public class TreeMapDemo_4 {
+public class Map_TreeMapDemo_4 {
     public static void main(String[] args) {
         TreeMap<Integer, String> treeMap = new TreeMap<>();
 

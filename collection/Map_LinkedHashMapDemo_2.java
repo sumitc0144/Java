@@ -3,7 +3,7 @@ package collection;
 import java.util.*;
 import java.util.Map;
 
-public class LinkedHashMapDemo_2 {
+public class Map_LinkedHashMapDemo_2 {
     public static void main(String[] args) {
         Map<Integer, String> linkedHashMap = new LinkedHashMap<>();
 
