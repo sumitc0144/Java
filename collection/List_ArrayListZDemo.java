@@ -2,7 +2,7 @@ package collection;
 
 import java.util.*;
 
-public class Listinterface {
+public class List_ArrayListZDemo {
     public static void main(String[] args) {
         // =========================
         // ArrayList
