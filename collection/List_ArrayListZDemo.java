@@ -30,7 +30,7 @@ public class List_ArrayListZDemo {
         System.out.println("Size: "+arrayList.size());
 
 //        //Capcity
-//        System.out.println("Size: "+arrayList.());
+//        System.out.println("Size: "+arrayList.capacity());
 
         //isEmpty
         System.out.println("isEmpty: "+arrayList.isEmpty());
