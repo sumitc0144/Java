@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.function.Predicate;
 
-public class Funtions_Predicate {
+public class Functions_Predicate {
 //		boolean test(T t, U u);
 //	It’s a functional interface in the java.util.function package.
 //	You use it when you want to check a condition on an object.

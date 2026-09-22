@@ -8,7 +8,7 @@ import java.util.function.Consumer;
 //	void accept(T t);
 //		You use it when you want to perform an action on a value (like printing, logging, saving),
 //		but don’t need to return anything.
-public class Functions_Consumer {
+public class Functions__Consumer {
 
 	public static void main(String[] args) {
 		// Simple

@@ -14,7 +14,7 @@ interface TriPredicate<T, U, V> {
 }
 
 
-public class Functions_Bipredicate {
+public class Functions__Bipredicate {
 	   public static void main(String[] args) {
 		   //BiPredicate
 	        BiPredicate<String, Integer> longerThan = (str, len) -> str.length() > len;
