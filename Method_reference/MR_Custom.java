@@ -17,7 +17,7 @@ public class MR_Custom {
 		  MyPrinter.out.println("Hello World");
 
 	        // Method reference usage
-	        String[] names = {"Sumit", "Anita", "Ravi"};
+	        String[] names = {"Sumit", "Anita", "Poojad"};
 	        Arrays.stream(names).forEach(MyPrinter.out::println);
 	        
 //	        Arrays in Java do not have a forEach method.
